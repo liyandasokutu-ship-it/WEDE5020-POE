@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youth Empowerment Hub - Enquiry</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ========== HEADER & NAVIGATION ========== -->
+    <header>
+        <div class="logo">
+            <h1>Youth Empowerment Hub</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Programs</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ========== MAIN CONTENT ========== -->
+    <main>
+
+        <!-- PAGE BANNER -->
+        <section class="page-banner">
+            <h2>Submit an Enquiry</h2>
+            <p>Interested in our programmes, volunteering, or sponsoring a project?
+            Fill in the form below and our team will be in touch within 2 business days.</p>
+        </section>
+
+        <!-- ENQUIRY FORM SECTION -->
+        <section class="enquiry-section">
+
+            <div class="enquiry-form-container">
+                <h2>Enquiry Form</h2>
+
+                <form action="#" method="POST" class="enquiry-form">
+
+                    <!-- Full Name -->
+                    <div class="form-group">
+                        <label for="full-name">Full Name *</label>
+                        <input type="text" id="full-name" name="full_name"
+                        placeholder="Enter your full name" required>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email"
+                        placeholder="Enter your email address" required>
+                    </div>
+
+                    <!-- Phone -->
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone"
+                        placeholder="e.g. 071 234 5678">
+                    </div>
+
+                    <!-- Age -->
+                    <div class="form-group">
+                        <label for="age">Age</label>
+                        <input type="number" id="age" name="age"
+                        min="13" max="80" placeholder="Enter your age">
+                    </div>
+
+                    <!-- Enquiry Type -->
+                    <div class="form-group">
+                        <label for="enquiry-type">Type of Enquiry *</label>
+                        <select id="enquiry-type" name="enquiry_type" required>
+                            <option value="" disabled selected>-- Select an option --</option>
+                            <option value="participant">Join a Programme as a Participant</option>
+                            <option value="volunteer">Volunteer as a Tutor or Mentor</option>
+                            <option value="sponsor">Become a Sponsor or Donor</option>
+                            <option value="event">Register for an Event</option>
+                            <option value="general">General Enquiry</option>
+                        </select>
+                    </div>
+
+                    <!-- Programme of Interest -->
+                    <div class="form-group">
+                        <label for="programme">Programme of Interest</label>
+                        <select id="programme" name="programme">
+                            <option value="" disabled selected>-- Select a programme --</option>
+                            <option value="tutoring">Academic Tutoring</option>
+                            <option value="mentorship">Mentorship Programme</option>
+                            <option value="workshops">Skills Workshops</option>
+                            <option value="career">Career Guidance</option>
+                            <option value="multiple">Multiple Programmes</option>
+                            <option value="not-sure">Not Sure Yet</option>
+                        </select>
+                    </div>
+
+                    <!-- How did you hear about us -->
+                    <div class="form-group">
+                        <label for="referral">How Did You Hear About Us?</label>
+                        <select id="referral" name="referral">
+                            <option value="" disabled selected>-- Select an option --</option>
+                            <option value="social-media">Social Media</option>
+                            <option value="friend">Friend or Family</option>
+                            <option value="school">School or University</option>
+                            <option value="community">Community Notice Board</option>
+                            <option value="google">Google Search</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <!-- Message -->
+                    <div class="form-group">
+                        <label for="message">Your Message or Question *</label>
+                        <textarea id="message" name="message" rows="6"
+                        placeholder="Please describe what you are looking for..." required></textarea>
+                    </div>
+
+                    <!-- Consent Checkbox -->
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="consent" name="consent" required>
+                        <label for="consent">I agree to be contacted by the Youth Empowerment Hub team
+                        regarding my enquiry. *</label>
+                    </div>
+
+                    <!-- Buttons -->
+                    <div class="form-group">
+                        <button type="submit" class="btn-primary">Submit Enquiry</button>
+                        <button type="reset" class="btn-secondary">Clear Form</button>
+                    </div>
+
+                </form>
+            </div>
+
+            <!-- Ways to Get Involved -->
+            <div class="enquiry-info">
+                <h2>Ways to Get Involved</h2>
+
+                <div class="involvement-option">
+                    <h3>As a Participant</h3>
+                    <p>If you are a high school learner, university student, unemployed youth,
+                    or community member, you can apply to join any of our free programmes.</p>
+                </div>
+
+                <div class="involvement-option">
+                    <h3>As a Volunteer</h3>
+                    <p>We are always looking for passionate individuals to join our team as
+                    volunteer tutors, mentors, or event assistants.</p>
+                    <ul>
+                        <li>Minimum commitment: 2 hours per week</li>
+                        <li>All volunteers receive a certificate of participation</li>
+                        <li>Training and support provided</li>
+                    </ul>
+                </div>
+
+                <div class="involvement-option">
+                    <h3>As a Sponsor or Donor</h3>
+                    <p>Your financial support helps us reach more youth and expand our programmes.</p>
+                    <ul>
+                        <li>Individual donations welcome from any amount</li>
+                        <li>Corporate sponsorship packages available</li>
+                        <li>Section 18A tax certificates issued upon request</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h4>Youth Empowerment Hub</h4>
+                <p>Empowering young people through education,
+                mentorship, and skills development since 2022.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Programs</a></li>
+                    <li><a href="enquiry.html">Enquiry</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <p>Email: info@youthempowermenthub.org</p>
+                <p>Phone: +27 11 000 1234</p>
+                <p>Website: www.youthempowermenthub.org</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Youth Empowerment Hub. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

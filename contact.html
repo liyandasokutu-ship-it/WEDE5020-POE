@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youth Empowerment Hub - Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ========== HEADER & NAVIGATION ========== -->
+    <header>
+        <div class="logo">
+            <h1>Youth Empowerment Hub</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Programs</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ========== MAIN CONTENT ========== -->
+    <main>
+
+        <!-- PAGE BANNER -->
+        <section class="page-banner">
+            <h2>Contact Us</h2>
+            <p>Reach out to us at any of our locations or send us a message below.</p>
+        </section>
+
+        <!-- LOCATIONS SECTION (assignment requires more than 1 location) -->
+        <section class="contact-locations">
+            <h2>Our Locations</h2>
+
+            <div class="location-cards">
+
+                <!-- Location 1: Main Office -->
+                <div class="location-card">
+                    <h3>Main Office - Johannesburg</h3>
+                    <address>
+                        <p>123 Empowerment Road</p>
+                        <p>Braamfontein, Johannesburg</p>
+                        <p>Gauteng, 2001</p>
+                        <p>South Africa</p>
+                    </address>
+                    <p><strong>Phone:</strong> +27 11 000 1234</p>
+                    <p><strong>Email:</strong> info@youthempowermenthub.org</p>
+                    <p><strong>Office Hours:</strong> Monday - Friday: 08:00 - 17:00</p>
+                    <p><strong>Saturday:</strong> 09:00 - 13:00</p>
+
+                    <!-- Google Maps embed for Johannesburg office -->
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.7023442678424!2d28.0327!3d-26.1929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c4db8d07b91%3A0x39c5e91038a0fb4!2sBraamfontein%2C%20Johannesburg!5e0!3m2!1sen!2sza!4v1712000000000!5m2!1sen!2sza"
+                            width="100%"
+                            height="250"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            title="Map of Braamfontein Johannesburg">
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- Location 2: Soweto Branch -->
+                <div class="location-card">
+                    <h3>Soweto Branch Office</h3>
+                    <address>
+                        <p>45 Ubuntu Avenue</p>
+                        <p>Meadowlands, Soweto</p>
+                        <p>Gauteng, 1852</p>
+                        <p>South Africa</p>
+                    </address>
+                    <p><strong>Phone:</strong> +27 11 000 5678</p>
+                    <p><strong>Email:</strong> soweto@youthempowermenthub.org</p>
+                    <p><strong>Office Hours:</strong> Tuesday - Thursday: 09:00 - 16:00</p>
+                    <p><strong>Saturday:</strong> 09:00 - 13:00</p>
+
+                    <!-- Google Maps embed for Soweto office -->
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.5!2d27.8570!3d-26.2679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9399d1c55a5555%3A0x1234567890abcdef!2sMeadowlands%2C%20Soweto!5e0!3m2!1sen!2sza!4v1712000000001!5m2!1sen!2sza"
+                            width="100%"
+                            height="250"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            title="Map of Meadowlands Soweto">
+                        </iframe>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CONTACT FORM SECTION -->
+        <section class="contact-form-section">
+
+            <div class="contact-form-container">
+                <h2>Send Us a Message</h2>
+                <p>Have a question? Fill in the form and we will respond within 2 working days.</p>
+
+                <form action="#" method="POST" class="contact-form">
+
+                    <!-- Full Name -->
+                    <div class="form-group">
+                        <label for="contact-name">Full Name *</label>
+                        <input type="text" id="contact-name" name="contact_name"
+                        placeholder="Enter your full name" required>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="form-group">
+                        <label for="contact-email">Email Address *</label>
+                        <input type="email" id="contact-email" name="contact_email"
+                        placeholder="Enter your email address" required>
+                    </div>
+
+                    <!-- Phone -->
+                    <div class="form-group">
+                        <label for="contact-phone">Phone Number</label>
+                        <input type="tel" id="contact-phone" name="contact_phone"
+                        placeholder="e.g. 071 234 5678">
+                    </div>
+
+                    <!-- Subject -->
+                    <div class="form-group">
+                        <label for="contact-subject">Subject *</label>
+                        <input type="text" id="contact-subject" name="contact_subject"
+                        placeholder="What is your message about?" required>
+                    </div>
+
+                    <!-- Office Selection -->
+                    <div class="form-group">
+                        <label for="contact-office">Which Office Are You Contacting?</label>
+                        <select id="contact-office" name="contact_office">
+                            <option value="" disabled selected>-- Select an office --</option>
+                            <option value="johannesburg">Main Office - Johannesburg</option>
+                            <option value="soweto">Soweto Branch Office</option>
+                            <option value="general">General (Any Office)</option>
+                        </select>
+                    </div>
+
+                    <!-- Message -->
+                    <div class="form-group">
+                        <label for="contact-message">Your Message *</label>
+                        <textarea id="contact-message" name="contact_message"
+                        rows="6" placeholder="Type your message here..." required></textarea>
+                    </div>
+
+                    <!-- Buttons -->
+                    <div class="form-group">
+                        <button type="submit" class="btn-primary">Send Message</button>
+                        <button type="reset" class="btn-secondary">Clear Form</button>
+                    </div>
+
+                </form>
+            </div>
+
+            <!-- Social Media -->
+            <div class="contact-social">
+                <h2>Connect With Us</h2>
+                <p>Follow us on social media for updates and event announcements.</p>
+
+                <ul class="social-links">
+                    <li><a href="https://www.facebook.com" target="_blank">Facebook: Youth Empowerment Hub</a></li>
+                    <li><a href="https://www.instagram.com" target="_blank">Instagram: @youthempowermenthub</a></li>
+                    <li><a href="https://www.twitter.com" target="_blank">Twitter/X: @YEHub_SA</a></li>
+                    <li><a href="https://www.linkedin.com" target="_blank">LinkedIn: Youth Empowerment Hub</a></li>
+                </ul>
+
+                <h3>Frequently Asked Questions</h3>
+
+                <div class="faq-item">
+                    <h4>Are your programmes free?</h4>
+                    <p>Yes. All of our programmes are completely free of charge for qualifying participants.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>How do I apply for a programme?</h4>
+                    <p>You can apply by filling in our <a href="enquiry.html">enquiry form</a>
+                    or by visiting one of our offices during working hours.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>How long does it take to get a response?</h4>
+                    <p>We aim to respond to all enquiries within 2 working days.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h4>Youth Empowerment Hub</h4>
+                <p>Empowering young people through education,
+                mentorship, and skills development since 2022.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Programs</a></li>
+                    <li><a href="enquiry.html">Enquiry</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <p>Email: info@youthempowermenthub.org</p>
+                <p>Phone: +27 11 000 1234</p>
+                <p>Website: www.youthempowermenthub.org</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Youth Empowerment Hub. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

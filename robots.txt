@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /about.html
+Allow: /services.html
+Allow: /enquiry.html
+Allow: /contact.html
+Disallow: /css/
+Disallow: /js/
+
+Sitemap: https://www.youthempowermenthub.org/sitemap.xml
